@@ -189,7 +189,6 @@ steps used to find the errors:
 
 1.Act as a professional python programmer
 
-
 2. (Sent files individually) with prompt " find what are the errors found within the program itself and specify it."
 
 
