@@ -68,17 +68,27 @@ The program runs smoothly without syntax or runtime errors. However, there is a 
 outliers = data[np.abs(z_scores) > 2  inorder for the logic to be corrected.
 <br><br>
 
+***CHAPTER 7***
+<br>
+ There are no errors in the program. The code runs without crashing.
+ <br><br>
+
 ***CHAPTER 8***
 <br>
 There are no errors in the program. The code runs without crashing. However, the chapter says to use *Titanic-Dataset.csv*, but the code I reviewed calls *pd.read_csv('train.csv')*. That works only if the uploaded file is literally named *train.csv*. If someone uploads the chapter’s Titanic file instead, the notebook raises a *FileNotFoundError* at the loading step. I decided to change it into *Titanic_Dataset.csv* 
- The error comes from the filename mismatch, not from the pipeline logic.
+ The error comes from the filename mismatch, not from the pipeline logic. thus, there are no errors.
 <br>
  
 Later on, I tried the *train.csv* provided recently, it works perfectly, no alternation needed. Thus, there is no error. 
 
  <br><br>
 
+ ***CHAPTER 9***
+<br>
+ There are no errors in the program. The code runs without crashing.
+ <br><br>
 
+ADDTIONAL ERROR: When error occurs and we changed only the wrong part in one line there are chances that the program will not run smoothly even if the wrong code is corrected. Based from our experience, re-writing the whole line is a safer option for the program to run smoothly once corrected.
 
 ## Note on AI tools
 
@@ -93,7 +103,9 @@ before every paraphrasing, a draft was provided so that the essence of our own u
 FOR ERRORS WE FOUND
 AI TOOLS USED: CLAUDE AI
 
-PROMPT USED: "suppose you are a student in engineering, answer this in 1st person point of view: is there any error in this program (code) if none say so"
+PROMPT USED: "Suppose you're an engineering student: Find and specify errors within the program (code) and provide corrections on how to fix it. If none, say so". With separate files attached.
+
+Once the result says the program runs without crashing, it serves as an automatic green light for us that the syntax are correct but of course there are other minor and major errors to considered which are present in various chapters.
 
 Since we're newly exposed to this kind of programming and we're still not familiar with couple of commands, we directly asked for assistance from claude AI to identify the Errors. Our participation takes into place at the part where we check one by one the errors found and verify it through our own understanding of the commands and understanding how it can affect the program so that we can learn and come to a point where we can point out errors within a program with just ourselves and a little help from AI as possible. (Obvious errors in the codes we're directly written like for example, the chapter 6 logical error).
 
