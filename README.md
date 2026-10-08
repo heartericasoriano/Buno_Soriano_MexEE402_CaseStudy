@@ -8,8 +8,8 @@ Batangas State University, Alangilan Campus
 
 | Name | Student Number | Section |
 |---|---|---|
-| Buño, Carl Axle | | |
-| Soriano, Heart Erica | | |
+| Buño, Carl Axle | 23-01607 | MEXE-4102 |
+| Soriano, Heart Erica | 23-02684| MEXE-4102 |
 
 ## Notebook links
 
