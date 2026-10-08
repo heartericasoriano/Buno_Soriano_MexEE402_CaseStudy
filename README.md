@@ -25,8 +25,8 @@ Batangas State University, Alangilan Campus
 
 ## What we learned
 
-One short paragraph per chapter, Ch1_2_3 to Ch9. Say what the chapter taught
-you and what surprised you. Not what the library does, but what you understood.
+#One short paragraph per chapter, Ch1_2_3 to Ch9. Say what the chapter taught
+you and what surprised you. Not what the library does, but what you understood.#
 
 for chapter 4 I learned that this chapter focuses on feature engineering, which involves transforming existing data into new and more useful features. I learned how to create new features using binning which converts numerical data into categorial data, interaction features which can combine two or more variables into a new feature, and polynomial features for more complexity or to add more features to datas. I also observed how Python and Pandas can be used to organize data using ordinal encoding, perform calculations which I knew from the start because engineering pronciples are focused on calculations, and create new columns from existing data. Overall, the chapter taught me how transforming data can help reveal patterns and provide better information for analysis.
 
