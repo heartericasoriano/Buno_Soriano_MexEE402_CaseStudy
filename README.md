@@ -62,10 +62,22 @@ There is no errors in the program. The code runs without crashing.
 
  ***CHAPTER 6***
  <br>
- The only real error that we found is that the Z-score cell finds no outliers while the text claims it found 100. The reason for this is that with only 8 data points, a z-score above 3 is mathematically impossible.
+The program runs smoothly without syntax or runtime errors. However, there is a logical inconsistency, the Z-score cell finds no outliers while the text claims it found 100. The reason for this is that with only 8 data points, a z-score above 3 is mathematically impossible.
  But there are no problem with syntax since it runs without crashing. 
  To  fix it use a larger dataset so a threshold of 3 is reachable or set a lower threshold for small samples
 outliers = data[np.abs(z_scores) > 2  inorder for the logic to be corrected.
+<br><br>
+
+***CHAPTER 8***
+<br>
+There is no errors in the program. The code runs without crashing. However, the chapter says to use *Titanic-Dataset.csv*, but the code I reviewed calls *pd.read_csv('train.csv')*. That works only if the uploaded file is literally named *train.csv*. If someone uploads the chapter’s Titanic file instead, the notebook raises a *FileNotFoundError* at the loading step. I decided to change it into *Titanic_Dataset.csv* 
+ The error comes from the filename mismatch, not from the pipeline logic.
+<br>
+ 
+Later on, I tried the *train.csv* provided recently, it works perfectly, no alternation needed. Thus, there is no error. 
+
+ <br><br>
+
 
 
 ## Note on AI tools
