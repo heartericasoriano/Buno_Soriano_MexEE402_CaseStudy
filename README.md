@@ -52,12 +52,12 @@ There is no errors in the program. The code runs without crashing.
 
 ***CHAPTER 4***
 <br>
- We did not find any errors that would stop the program from running or provide incorrect results
+ There is no errors in the program. The code runs without crashing.
  <br><br>
 
 ***CHAPTER 5***
 <br>
- We don't see any errors in this program. We went through it cell by cell, and it should run from top to bottom without problems.
+There is no errors in the program. The code runs without crashing.
  <br><br>
 
  ***CHAPTER 6***
