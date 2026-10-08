@@ -46,8 +46,9 @@ There are real ones in there. Finding them earns points.
 
 ***CHAPTER 1_2_3***
 <br>
-I found errors in the program. The code runs without crashing, but it contains problems that would cause incorrect or unreliable results. First is the chained inplace=True assignment used to fill the missing values: *df['Year'].fillna(df['Year'].mean(), inplace=True)
-df['Publisher'].fillna(df['Publisher'].mode()[0], inplace=True)*. *df['Year']* returns an intermediate Series, which may be a copy and not a direct view of the DataFrame column. With *inplace=True*, *fillna()* modifies that intermediate object, and the change is not guaranteed to propagate back to df. The FutureWarning in the notebook’s output reports that the inplace method will never work because the intermediate object on which we are setting values always behaves as a copy. 
+I found errors in the program. The code runs without crashing, but it contains problems that would cause incorrect or unreliable results. First is the chained inplace=True assignment used to fill the missing values: <br>
+df['Year'].fillna(df['Year'].mean(), inplace=True)
+df['Publisher'].fillna(df['Publisher'].mode()[0], inplace=True). *df['Year']* returns an intermediate Series, which may be a copy and not a direct view of the DataFrame column. With *inplace=True*, *fillna()* modifies that intermediate object, and the change is not guaranteed to propagate back to df. The FutureWarning in the notebook’s output reports that the inplace method will never work because the intermediate object on which we are setting values always behaves as a copy. 
 <br>
 To fix it, Assign the result back to the column instead of modifying in place:
 *df['Year'] = df['Year'].fillna(df['Year'].mean())
