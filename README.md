@@ -1,5 +1,3 @@
-# Buño_Soriano_MexEE402_CaseStudy
-
 # MexEE 402: Data Preprocessing Case Study
 
 MexEE Elective 2: Data Science and Machine Learning
