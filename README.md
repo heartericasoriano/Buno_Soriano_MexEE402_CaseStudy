@@ -48,16 +48,16 @@ There are real ones in there. Finding them earns points.
 
 ***CHAPTER 1_2_3***
 <br>
-There is no errors in the program. The code runs without crashing.
+There are no errors in the program. The code runs without crashing.
 
 ***CHAPTER 4***
 <br>
- There is no errors in the program. The code runs without crashing.
+ There are no errors in the program. The code runs without crashing.
  <br><br>
 
 ***CHAPTER 5***
 <br>
-There is no errors in the program. The code runs without crashing.
+There are no errors in the program. The code runs without crashing.
  <br><br>
 
  ***CHAPTER 6***
