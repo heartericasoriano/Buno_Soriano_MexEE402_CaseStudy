@@ -16,12 +16,12 @@ Batangas State University, Alangilan Campus
 | Chapter | |
 |---|---|
 | Ch1_2_3 | https://colab.research.google.com/drive/1sFq5uTvxhFwvD9zm5DPTvRlLkWfKhwKT?usp=sharing |
-| Ch4 | https://drive.google.com/file/d/1WZgYoYsqJMj5tqSR0j713wg3ONCoS6Pz/view?usp=sharing |
-| Ch5 | https://drive.google.com/file/d/1uP8RRHejzMus5z1jYBQZPb0FqkaEKSfn/view?usp=sharing |
-| Ch6 | [link]() |
-| Ch7 | [link]() |
-| Ch8 | [link]() |
-| Ch9 | [link]() |
+| Ch4 |  |
+| Ch5 |  |
+| Ch6 |  |
+| Ch7 | https://colab.research.google.com/drive/1kMfHcajrx5wE0cUuxzADicLqPREv9DZZ?usp=sharing |
+| Ch8 | https://colab.research.google.com/drive/1dotoRGndorrYg2s0aK51d-fQ8fi2Um7N?usp=sharing |
+| Ch9 | https://colab.research.google.com/drive/126SFow3I7iNEAo7Y5s0zZLjJk-xDR0ID?usp=sharing |
 
 ## What we learned
 
