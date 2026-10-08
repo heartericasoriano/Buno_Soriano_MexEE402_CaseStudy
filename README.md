@@ -95,7 +95,7 @@ AI TOOLS USED: CLAUDE AI
 
 PROMPT USED: "suppose you are a student in engineering, answer this in 1st person point of view: is there any error in this program (code) if none say so"
 
-Since we're newly exposed to this kind of programming and we're still not familiar with couple of commands, we directly asked for assistance from claude AI to identify the Errors. Our participation takes into place at the part where we check one by one the errors found and verify it through our own understanding of the commands and understanding how it can affect the program so that we can learn and come to a point where we can point out errors within a program with just ourselves and a little help from AI as possible. (Obvious errors in the codes we're directly written lie for example, the chapter 6 logical error).
+Since we're newly exposed to this kind of programming and we're still not familiar with couple of commands, we directly asked for assistance from claude AI to identify the Errors. Our participation takes into place at the part where we check one by one the errors found and verify it through our own understanding of the commands and understanding how it can affect the program so that we can learn and come to a point where we can point out errors within a program with just ourselves and a little help from AI as possible. (Obvious errors in the codes we're directly written like for example, the chapter 6 logical error).
 
 
 ## References
