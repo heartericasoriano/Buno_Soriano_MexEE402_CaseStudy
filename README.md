@@ -20,7 +20,7 @@ Batangas State University, Alangilan Campus
 | Ch5 |  |
 | Ch6 |  |
 | Ch7 | https://colab.research.google.com/drive/1kMfHcajrx5wE0cUuxzADicLqPREv9DZZ?usp=sharing |
-| Ch8 |  |
+| Ch8 | https://colab.research.google.com/drive/1dotoRGndorrYg2s0aK51d-fQ8fi2Um7N?usp=sharing |
 | Ch9 |  |
 
 ## What we learned
