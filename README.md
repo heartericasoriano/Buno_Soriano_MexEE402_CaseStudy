@@ -27,14 +27,14 @@ Batangas State University, Alangilan Campus
 
 ### One short paragraph per chapter, Ch1_2_3 to Ch9. Say what the chapter taught you and what surprised you. Not what the library does, but what you understood.
 
-#### Chapter 4 
+***CHAPTER 4***
 In this chapter, we learned that machine learning models aren't smart enough to spot patterns on their own, they really need us to shape and manipulate the data for them. That's where feature engineering comes into play. We were surprised that simple coding steps, like making ratios or squaring numbers, help a basic model understand curved trends. We learned that data can be transformed and organized to make patterns easier to understand.
 Overall, the chapter taught us that proper data transformation through feature engineering is important for getting clearer and more meaningful results.
 
-#### Chapter 5
+***CHAPTER 5***
 In Chapter 5, we realized that computer models don't actually understand what our numbers mean, they just see bigger numbers and assume they're more important. When we looked at study hours (0–20) alongside grades (0–100), the higher grade numbers automatically overwhelmed the study hours, even though both mattered. We learned that scaling fixes this by leveling the playing field, either by squeezing all our data between 0 and 1 or centering it around zero so every variable gets a fair say. Another important fact was learning that squashing these numbers makes them fair without messing up the actual patterns between them, and that we don't always have to scale—it entirely depends on our data and the algorithm we're using.
 
-#### Chapter 6
+***CHAPTER 6***
 We learned about outliers, which are data values that are very different from the others. We learned that outliers can affect or bias the data because of their extreme positive or negative values. However, if these outliers are irrelevant, removing or handling them can make the data more reliable and easier to evaluate. We also learned different ways to detect and handle outliers, such as the Z-score, IQR method, capping and flooring, and log transformation. Overall, this chapter taught me the importance of checking unusual data before analyzing the results. We were surprised with the result of z-score because even if it's obvious in the data that there's an outlier which is 100, it says that there are no outliers since the z-score does not exceed or equalize to 3 or negative 3. That's why I\We think IQR is the more reliable method based on the given dataset.
 
 
@@ -44,17 +44,12 @@ There are real ones in there. Finding them earns points.
 
 
 ## Errors we found
+### List any mistake you found in the original notebooks, and the correct version.
+### There are real ones in there. Finding them earns points.
 
 ***CHAPTER 1_2_3***
 <br>
-I found errors in the program. The code runs without crashing, but it contains problems that would cause incorrect or unreliable results. First is the chained inplace=True assignment used to fill the missing values: <br>
-<mark>df['Year'].fillna(df['Year'].mean(), inplace=True)
-df['Publisher'].fillna(df['Publisher'].mode()[0], inplace=True)</mark>. <mark>df['Year']</mark> returns an intermediate Series, which may be a copy and not a direct view of the DataFrame column. With <mark>inplace=True</mark>, <mark>fillna()</mark> modifies that intermediate object, and the change is not guaranteed to propagate back to df. The FutureWarning in the notebook’s output reports that the inplace method will never work because the intermediate object on which we are setting values always behaves as a copy. 
-<br>
-To fix it, Assign the result back to the column instead of modifying in place:
-<mark>df['Year'] = df['Year'].fillna(df['Year'].mean())
-df['Publisher'] = df['Publisher'].fillna(df['Publisher'].mode()[0])</mark>
-<br><br>
+There is no errors in the program. The code runs without crashing.
 
 ***CHAPTER 4***
 <br>
