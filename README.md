@@ -84,23 +84,18 @@ Later on, I tried the *train.csv* provided recently, it works perfectly, no alte
 
 #### Say whether you used an AI tool, and what for. This is not a penalty. Hiding it is.
 
-For finding the errors since we're not yet familiar with various codes, we seek help from Claude AI to detect and specify each problems within the code.
+FOR WHAT WE LEARNED PART:
+AI TOOLS USED: GEMINI & CHAT GPT
 
-steps used to find the errors:
-(PROMPTS)
+They were used not to seek for answers but to further understand what each chapter's purpose is. It was used to further understand new concepts and also used as a paraphrasing tool for better workflow of ideas.
+before every paraphrasing, a draft was provided so that the essence of our own understanding won't be wasted.
 
+FOR ERRORS WE FOUND
+AI TOOLS USED: CLAUDE AI
 
-1.Act as a professional python programmer
+PROMPT USED: "suppose you are a student in engineering, answer this in 1st person point of view: is there any error in this program (code) if none say so"
 
-2. (Sent files individually) with prompt " find what are the errors found within the program itself and specify it."
-
-
-
-(IMPLEMENTATION)
-
-
-3. Even after claude provides the found errors, the AI provides corrections on how to fix the code which helped us to understand further how the code shoud be and what is the correct code for each specific chapters.
-4. After receiving the faults and errors, we inspect and analyzed the program and included the errors in every chapters.
+Since we're newly exposed to this kind of programming and we're still not familiar with couple of commands, we directly asked for assistance from claude AI to identify the Errors. Our participation takes into place at the part where we check one by one the errors found and verify it through our own understanding of the commands and understanding how it can affect the program so that we can learn and come to a point where we can point out errors within a program with just ourselves and a little help from AI as possible. (Obvious errors in the codes we're directly written lie for example, the chapter 6 logical error).
 
 
 ## References
