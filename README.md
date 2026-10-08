@@ -45,7 +45,7 @@ There are real ones in there. Finding them earns points.
 
 FOR CHAPTER 4
 
-there are 4 errors found plus one structural flaw
+there are 5 errors found plus one structural flaw
 
 Errors found in the code
 
@@ -187,6 +187,9 @@ steps used to find the ferrors:
 (PROMPTS)
 1.Act as a professional python programmer
 2. (Sent files individually) with prompt " find what are the errors found within the program itself and specify it."
+
+
+
 (IMPLEMENTATION)
 3. Even after claude provides the found errors, the AI provides corrections on how to fix the code which helped us to understand further how the code shoud be and what is the correct code for each specific chapters.
 4. After receiving the faults and errors, we inspect and analyzed the program and included the errors in every chapters.
