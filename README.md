@@ -34,7 +34,7 @@ We learned that this chapter focuses on feature engineering, which involves tran
 We learned that this chapter focuses on data scaling and normalization, which is the process of adjusting numerical data so that different features can be compared more fairly. As we experienced working with coding, we learned how to use StandardScaler to standardize data based on its mean and standard deviation, while MinMaxScaler adjusts the data to a range from 0 to 1. We also experienced how Python and Pandas can be used to organize datasets and how Scaler.fit_transform can transform features such as study hours and grades. Through this activity, we understood that scaling and normalization are important because they prevent features with larger numerical values from having too much influence on the results. Overall, this chapter helped us understand how properly scaled data can make analysis easier and prepare datasets for machine learning.
 
 #### Chapter 6
-We learned about outliers, which are data values that are very different from the others. We learned that outliers can affect or bias the data because of their extreme positive or negative values. However, if these outliers are irrelevant, removing or handling them can make the data more reliable and easier to evaluate. We also learned different ways to detect and handle outliers, such as the Z-score, IQR method, capping and flooring, and log transformation. Overall, this chapter taught me the importance of checking unusual data before analyzing the results. We were surprised with the result of z-score because even if it's obvious in the data that there's an outlier which is 100, it says that there are no outliers since the z-score does not exceed or equalize to 3 or negative 3. That's why I think IQR is the more reliable method based on the given dataset.
+We learned about outliers, which are data values that are very different from the others. We learned that outliers can affect or bias the data because of their extreme positive or negative values. However, if these outliers are irrelevant, removing or handling them can make the data more reliable and easier to evaluate. We also learned different ways to detect and handle outliers, such as the Z-score, IQR method, capping and flooring, and log transformation. Overall, this chapter taught me the importance of checking unusual data before analyzing the results. We were surprised with the result of z-score because even if it's obvious in the data that there's an outlier which is 100, it says that there are no outliers since the z-score does not exceed or equalize to 3 or negative 3. That's why I\We think IQR is the more reliable method based on the given dataset.
 
 
 
@@ -43,7 +43,17 @@ There are real ones in there. Finding them earns points.
 
 
 ## Errors we found
+ FOR CHAPTER 4
+ We did not find any errors that would stop the program from running or provide incorrect results
 
+ FOR CHAPTER 5
+ We don't see any errors in this program. We went through it cell by cell, and it should run from top to bottom without problems.
+
+ FOR CHAPTER 6
+ The only real error that we found is that the Z-score cell finds no outliers while the text claims it found 100. The reason for this is that With only 8 data points, a z-score above 3 is mathematically impossible.
+ But there are no problem with syntax since it runs without crashing. 
+ To  fix it use a larger dataset so a threshold of 3 is reachable or set a lower threshold for small samples
+outliers = data[np.abs(z_scores) > 2  inorder for the logic to be corrected.
 
 
 ## Note on AI tools
