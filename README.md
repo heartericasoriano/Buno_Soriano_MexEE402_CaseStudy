@@ -1,2 +1,2 @@
-# Buno_Soriano_MexEE402_CaseStudy
+# Buño_Soriano_MexEE402_CaseStudy
 chgvjh
