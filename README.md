@@ -44,7 +44,7 @@ There are real ones in there. Finding them earns points.
 
 ## Errors we found
 
-***Chapter 1***
+***CHAPTER 1_2_3***
 <br>
 I found errors in the program. The code runs without crashing, but it contains problems that would cause incorrect or unreliable results. First is the chained inplace=True assignment used to fill the missing values: *df['Year'].fillna(df['Year'].mean(), inplace=True)
 df['Publisher'].fillna(df['Publisher'].mode()[0], inplace=True)*. *df['Year']* returns an intermediate Series, which may be a copy and not a direct view of the DataFrame column. With *inplace=True*, *fillna()* modifies that intermediate object, and the change is not guaranteed to propagate back to df. The FutureWarning in the notebook’s output reports that the inplace method will never work because the intermediate object on which we are setting values always behaves as a copy. 
@@ -54,14 +54,19 @@ To fix it, Assign the result back to the column instead of modifying in place:
 df['Publisher'] = df['Publisher'].fillna(df['Publisher'].mode()[0])*
 <br><br>
 
- FOR CHAPTER 4
+***CHAPTER 4***
+<br>
  We did not find any errors that would stop the program from running or provide incorrect results
+ <br><br>
 
- FOR CHAPTER 5
+***CHAPTER 5***
+<br>
  We don't see any errors in this program. We went through it cell by cell, and it should run from top to bottom without problems.
+ <br><br>
 
- FOR CHAPTER 6
- The only real error that we found is that the Z-score cell finds no outliers while the text claims it found 100. The reason for this is that With only 8 data points, a z-score above 3 is mathematically impossible.
+ ***CHAPTER 6***
+ <br>
+ The only real error that we found is that the Z-score cell finds no outliers while the text claims it found 100. The reason for this is that with only 8 data points, a z-score above 3 is mathematically impossible.
  But there are no problem with syntax since it runs without crashing. 
  To  fix it use a larger dataset so a threshold of 3 is reachable or set a lower threshold for small samples
 outliers = data[np.abs(z_scores) > 2  inorder for the logic to be corrected.
