@@ -58,7 +58,9 @@ Overall, the chapter taught us that proper data transformation through feature e
 &nbsp;&nbsp;&nbsp;&nbsp;In this chapter, we learned that data preprocessing involves more than simply cleaning a dataset, it also requires deciding how each piece of information should be prepared before analysis. By working with the Titanic dataset, we understood how missing values, irrelevant features, and differently formatted data can affect the reliability of our results. What surprised us was that preprocessing is not always a one-time procedure, since some steps may need to be revisited and adjusted after examining the processed data. We also discovered how visualizations can reveal patterns in passenger survival based on factors such as age, gender, passenger class, and family size. We grasped that careful data preparation and evaluation are essential in engineering because the conclusions we draw depend greatly on the quality and interpretation of the data we use.
 
 
-
+<br><br>
+<br><br>
+<br><br>
 
 
 ## Errors we found
@@ -108,6 +110,9 @@ Later on, I tried the *train.csv* provided recently, it works perfectly, no alte
 <br><br>
 
 ADDTIONAL ERROR : When error occurs and we changed only the wrong part in one line there are chances that the program will not run smoothly even if the wrong code is corrected. Based from our experience, re-writing the whole line is a safer option for the program to run smoothly once corrected.
+<br><br>
+<br><br>
+<br><br>
 
 ## Note on AI tools
 
