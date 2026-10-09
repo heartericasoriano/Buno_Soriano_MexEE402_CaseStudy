@@ -27,6 +27,10 @@ Batangas State University, Alangilan Campus
 
 ### One short paragraph per chapter, Ch1_2_3 to Ch9. Say what the chapter taught you and what surprised you. Not what the library does, but what you understood.
 
+***CHAPTER 1_2_3***
+<br>
+in this chapter, I learned that data preprocessing and data cleaning are important steps in analyzing data using Python. I learned how to load datasets using the Pandas library, identify different data types, and explore data using functions such as head(), describe(), and info(). I also learned how to handle missing values through imputation, deletion, and prediction, as well as remove duplicate entries, irrelevant features, and noisy data. Through these activities, I realized that the quality of the data directly affects the accuracy and reliability of the results. This lesson helped me understand how Python can be used to organize, clean, and prepare data for analysis, which is useful in engineering research
+
 ***CHAPTER 4***
 <br>
 In this chapter, we learned that machine learning models aren't smart enough to spot patterns on their own, they really need us to shape and manipulate the data for them. That's where feature engineering comes into play. We were surprised that simple coding steps, like making ratios or squaring numbers, help a basic model understand curved trends. We learned that data can be transformed and organized to make patterns easier to understand.
