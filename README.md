@@ -90,7 +90,9 @@ outliers = data[np.abs(z_scores) > 2  inorder for the logic to be corrected.
 
 ***CHAPTER 7***
 <br>
- There are no errors in the program. The code runs without crashing.
+This notebook has no crashing errors, but it has several bugs that give unreliable or misleading results.
+In cell 10, *correlations > 0.5* ignores strong negative correlations and keeps *final grade* itself; fix it with *df_2.drop(columns='final grade').corrwith(df_2['final grade'])* and filter on *.abs() > 0.5*. In cell 15, *RFECV(cv=5)* on only 7 rows triggers the “R^2 not well-defined” warnings and arbitrarily picks between the identical *study hours* and *assignments completed* columns; use *cv=3* or *LeaveOneOut()*, remove the duplicate column, scale the features, and ideally add more data. In cell 20, *LassoCV(cv=5)* has the same tiny-data and unscaled-feature problem; add *StandardScaler* and use *cv=3*. Finally, cell 1 calls “assignments completed” an example of zero correlation, but cell 5 shows about 0.96 with Final Grade; change the example to something unrelated.
+ 
  <br><br>
 
 ***CHAPTER 8***
@@ -103,7 +105,8 @@ Later on, I tried the *train.csv* provided recently, it works perfectly, no alte
 
  ***CHAPTER 9***
 <br>
- There are no errors in the program. The code runs without crashing.
+ The notebook runs without crashing, but several cells give wrong or misleading results. 
+The notebook has three bugs. First, cell 29 plots *titanic_preprocessed[:,2]*, which is the one-hot column *cat__Embarked_C*, not Age; fix it by plotting column 0 *(num__Age, the imputed and scaled Age)* instead. Second, cells 28 and 29 are meant to be a before/after overlay, but cell 28 never calls *plt.show()* and the two cells render as separate figures, so merge them into one cell (with the same bins for both), call *plt.legend()* and *plt.show()* once, and compare the raw Age against the processed one. Third, cell 21 overwrites *data['Age']* with the categorical bins *Child/Adult/Elderly*, which breaks everything after it: cell 28’s histogram gets non-numeric data, cell 33’s *histplot(bins=30, kde=True)* now plots categories instead of a continuous distribution, and cell 38’s correlation heatmap silently drops Age because it is no longer numeric. The fix is to store the result in a new column, *data['AgeGroup'] = pd.cut(data['Age'], bins=bins, labels=labels)*, so the original numeric Age stays available for the later plots and the heatmap.
  <br><br>
 <br><br>
 
