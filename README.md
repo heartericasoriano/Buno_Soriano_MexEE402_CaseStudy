@@ -114,7 +114,7 @@ ADDTIONAL ERROR : When error occurs and we changed only the wrong part in one li
 
 ## Note on AI tools
 
-#### Say whether you used an AI tool, and what for. This is not a penalty. Hiding it is.
+### Say whether you used an AI tool, and what for. This is not a penalty. Hiding it is.
 
 FOR WHAT WE LEARNED PART:
 AI TOOLS USED: GEMINI & CHAT GPT
