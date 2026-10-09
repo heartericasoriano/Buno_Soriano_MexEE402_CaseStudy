@@ -105,8 +105,9 @@ Later on, I tried the *train.csv* provided recently, it works perfectly, no alte
 <br>
  There are no errors in the program. The code runs without crashing.
  <br><br>
+<br><br>
 
-ADDTIONAL ERROR: When error occurs and we changed only the wrong part in one line there are chances that the program will not run smoothly even if the wrong code is corrected. Based from our experience, re-writing the whole line is a safer option for the program to run smoothly once corrected.
+ADDTIONAL ERROR : When error occurs and we changed only the wrong part in one line there are chances that the program will not run smoothly even if the wrong code is corrected. Based from our experience, re-writing the whole line is a safer option for the program to run smoothly once corrected.
 
 ## Note on AI tools
 
