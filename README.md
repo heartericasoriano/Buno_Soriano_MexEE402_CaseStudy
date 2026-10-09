@@ -92,7 +92,6 @@ outliers = data[np.abs(z_scores) > 2  inorder for the logic to be corrected.
 <br>
 This notebook has no crashing errors, but it has several bugs that give unreliable or misleading results.
 In cell 10, *correlations > 0.5* ignores strong negative correlations and keeps *final grade* itself; fix it with *df_2.drop(columns='final grade').corrwith(df_2['final grade'])* and filter on *.abs() > 0.5*. In cell 15, *RFECV(cv=5)* on only 7 rows triggers the “R^2 not well-defined” warnings and arbitrarily picks between the identical *study hours* and *assignments completed* columns; use *cv=3* or *LeaveOneOut()*, remove the duplicate column, scale the features, and ideally add more data. In cell 20, *LassoCV(cv=5)* has the same tiny-data and unscaled-feature problem; add *StandardScaler* and use *cv=3*. Finally, cell 1 calls “assignments completed” an example of zero correlation, but cell 5 shows about 0.96 with Final Grade; change the example to something unrelated.
- 
  <br><br>
 
 ***CHAPTER 8***
